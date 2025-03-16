@@ -1,0 +1,152 @@
+name = "tokyonight"
+background = "dark"
+
+[hues]
+
+[colors]
+bg1 = "#1a1b26" # hsl(240, 17%, 13%)
+bg0 = "darken(bg1, 0.025)"
+
+black = "#414868" #hsl(229, 23%, 33%)
+
+bg2 = "mix(bg1, black, 0.80)"
+bg3 = "mix(bg1, black, 0.60)"
+
+comment = "#565f89" #hsl(229, 23%, 44%)
+
+fg0 = "#9aa5ce"
+fg1 = "#a9b1d6"
+fg2 = "#c0caf5"
+
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+purple = "#bb9af7"
+cyan = "#7dcfff"
+
+orange = "#ff9e64"
+teal0 = "#2ac3de"
+teal1 = "#73daca"
+teal2 = "#b4f9f8"
+
+[highlights]
+Normal = "fg1 bg1"
+NormalNC = "fg1 bg1"
+Cursorline = "- bg2"
+LineNr = "black"
+CursorlineNr = "yellow bg2"
+EndOfBuffer = "bg3"
+NonText = "bg3"
+Whitespace = "bg3"
+
+NormalFloat = "fg1 bg3"
+Pmenu = "fg1 bg3"
+PmenuSbar = "- bg3"
+PmenuSel = "fg2 black"
+PmenuThumb = "- fg0"
+
+WinSeparator = "bg0 bg0"
+Visual = "- bg3"
+
+StatusLine = "fg0 bg0"
+StatusLineNC = "black bg0"
+
+# Syntax
+Comment = "comment"
+Constant = "orange"
+Delimiter = "fg0"
+Directory = "blue"
+Function = "blue"
+Identifier = "fg2"
+Include = "blue"
+Keyword = "purple"
+Operator = "fg2"
+PreProc = "teal0"
+Special = "cyan"
+Statement = "purple"
+StorageClass = "purple"
+String = "green"
+Structure = "purple"
+Title = "yellow"
+Type = "teal1"
+
+# treesitter
+"@attribute" = "link:Special"
+"@boolean" = "link:Constant"
+"@character" = "link:Constant"
+"@character.special" = "link:Constant"
+"@comment" = "link:Comment"
+"@comment.todo.comment"  = "link:Todo"
+"@conditional" = "link:Statement"
+"@constant.builtin" = "link:Constant"
+"@constant" = "link:Constant"
+"@float" = "link:Constant"
+"@function.builtin" = "link:Function"
+"@function.builtin" = "link:Function"
+"@function" = "link:Function"
+"@function.macro" = "link:PreProc"
+"@keyword.directive" = "link:Constant"
+"@keyword.function" = "link:Statement"
+"@keyword.import" = "link:Function"
+"@label" = "link:Special"
+"@method" = "link:Function"
+"@namespace" = "link:Statement"
+"@number" = "link:Constant"
+"@parameter" = "yellow"
+"@property" = "fg2"
+"@punctuation.bracket"   = "fg0"
+"@punctuation.delimiter" = "fg0"
+"@type.builtin" = "link:Type"
+"@type.definition" = "link:Keyword"
+"@type" = "link:Type"
+"@type.qualifier" = "link:Keyword"
+"@variable" = "fg2"
+"@variable.parameter" = "yellow"
+
+"@constructor.lua" = "link:Delimiter"
+
+# non treesitter highlights
+xmlAttrib      = "purple"
+xmlAttribPunct = "blue"
+xmlEndTag      = "blue"
+xmlNamespace   = "blue"
+xmlTag         = "blue"
+xmlTagName     = "blue"
+
+# Plugins
+NvimTreeFolderIcon   = "link:Directory"
+NvimTreeIndentMarker = "link:Directory"
+NvimTreeWindowPicker = "bg0 yellow b"
+NvimTreeRootFolder   = "purple"
+NvimTreeSpecialFile  = "orange"
+NvimTreeExecFile     = "green"
+NvimTreeDeletedIcon  = "red"
+NvimTreeGitMergeIcon = "orange"
+NvimTreeGitDirtyIcon = "red"
+
+TelescopeBorder = "link:Comment"
+TelescopeTitle = "fg2"
+
+IblWhitespace = "link:NonText"
+IblScope      = "link:LineNr"
+
+[globals]
+terminal_color_0          = "bg3"
+terminal_color_1          = "red"
+terminal_color_2          = "green"
+terminal_color_3          = "orange"
+terminal_color_4          = "blue"
+terminal_color_5          = "purple"
+terminal_color_6          = "cyan"
+terminal_color_7          = "fg1"
+terminal_color_8          = "comment"
+terminal_color_9          = "red"
+terminal_color_10         = "green"
+terminal_color_11         = "orange"
+terminal_color_12         = "blue"
+terminal_color_13         = "purple"
+terminal_color_14         = "cyan"
+terminal_color_15         = "fg2"
+terminal_color_background = "bg1"
+terminal_color_foreground = "fg1"
