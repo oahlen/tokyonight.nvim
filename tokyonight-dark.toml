@@ -30,11 +30,11 @@ teal0 = "#2ac3de"
 teal1 = "#73daca"
 teal2 = "#b4f9f8"
 
-diag_ok_bg = "mix(green, bg0, 0.125)"
-diag_info_bg = "mix(blue, bg0, 0.125)"
-diag_hint_bg = "mix(cyan, bg0, 0.125)"
-diag_warn_bg = "mix(yellow, bg0, 0.125)"
-diag_error_bg = "mix(red, bg0, 0.125)"
+diag_ok_bg = "mix(green, bg0, 0.1)"
+diag_info_bg = "mix(blue, bg0, 0.1)"
+diag_hint_bg = "mix(cyan, bg0, 0.1)"
+diag_warn_bg = "mix(yellow, bg0, 0.1)"
+diag_error_bg = "mix(red, bg0, 0.1)"
 
 [highlights]
 Normal = "fg1 bg1"
