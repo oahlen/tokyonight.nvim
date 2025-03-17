@@ -20,4 +20,9 @@ return {
     teal0 = "#2ac3de",
     teal1 = "#73daca",
     teal2 = "#b4f9f8",
+    diag_ok_bg = "#262d27",
+    diag_info_bg = "#212739",
+    diag_hint_bg = "#222d3a",
+    diag_warn_bg = "#2e2927",
+    diag_error_bg = "#31222c",
 }

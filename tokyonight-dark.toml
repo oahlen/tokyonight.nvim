@@ -30,6 +30,12 @@ teal0 = "#2ac3de"
 teal1 = "#73daca"
 teal2 = "#b4f9f8"
 
+diag_ok_bg = "mix(green, bg0, 0.125)"
+diag_info_bg = "mix(blue, bg0, 0.125)"
+diag_hint_bg = "mix(cyan, bg0, 0.125)"
+diag_warn_bg = "mix(yellow, bg0, 0.125)"
+diag_error_bg = "mix(red, bg0, 0.125)"
+
 [highlights]
 Normal = "fg1 bg1"
 NormalNC = "fg1 bg1"
@@ -52,11 +58,34 @@ Visual = "- bg3"
 StatusLine = "fg0 bg0"
 StatusLineNC = "black bg0"
 
+# Diagnostics
+DiagnosticUnderlineOk    = "- - u green"
+DiagnosticUnderlineInfo  = "- - u blue"
+DiagnosticUnderlineHint  = "- - u cyan"
+DiagnosticUnderlineWarn  = "- - u yellow"
+DiagnosticUnderlineError = "- - u red"
+
+DiagnosticOk    = "green diag_ok_bg"
+DiagnosticInfo  = "blue diag_info_bg"
+DiagnosticHint  = "cyan diag_hint_bg"
+DiagnosticWarn  = "yellow diag_warn_bg"
+DiagnosticError = "red diag_error_bg"
+
+DiagnosticSignOk  = "green"
+DiagnosticSignInfo  = "blue"
+DiagnosticSignHint  = "cyan"
+DiagnosticSignWarn  = "yellow"
+DiagnosticSignError = "red"
+
+ErrorMsg = "red"
+WarningMsg = "yellow"
+
 # Syntax
 Comment = "comment"
 Constant = "orange"
 Delimiter = "fg0"
 Directory = "blue"
+Error = "red"
 Function = "blue"
 Identifier = "fg2"
 Include = "blue"
