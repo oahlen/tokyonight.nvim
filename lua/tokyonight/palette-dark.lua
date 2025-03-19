@@ -25,4 +25,7 @@ return {
     diag_hint_bg = "#1f2834",
     diag_warn_bg = "#292525",
     diag_error_bg = "#2b1f29",
+    diff_add_bg = "#303a2d",
+    diff_text_bg = "#293b4b",
+    diff_delete_bg = "#422934",
 }
