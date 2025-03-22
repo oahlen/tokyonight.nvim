@@ -6,6 +6,7 @@ return {
     black = "#414868",
     bg2 = "#212433",
     bg3 = "#292d40",
+    visual_bg = "#283458",
     comment = "#565f89",
     fg0 = "#9aa5ce",
     fg1 = "#a9b1d6",

@@ -7,12 +7,13 @@ background = "dark"
 bg1 = "#1a1b26" # hsl(240, 17%, 13%)
 bg0 = "darken(bg1, 0.025)"
 
-black = "#414868" #hsl(229, 23%, 33%)
+black = "#414868" # hsl(229, 23%, 33%)
 
 bg2 = "mix(bg1, black, 0.80)"
 bg3 = "mix(bg1, black, 0.60)"
+visual_bg = "hsl(225, 0.375, 0.25)"
 
-comment = "#565f89" #hsl(229, 23%, 44%)
+comment = "#565f89" # hsl(229, 23%, 44%)
 
 fg0 = "#9aa5ce"
 fg1 = "#a9b1d6"
@@ -40,34 +41,39 @@ diff_text_bg   = "mix(cyan, bg0, 0.2)"
 diff_delete_bg = "mix(red, bg0, 0.2)"
 
 [highlights]
-Normal   = "fg1 bg1"
-NormalNC = "fg1 bg1"
+Normal      = "fg1 bg1"
+NormalNC    = "fg1 bg1"
+NormalFloat = "fg1 bg3"
 
 EndOfBuffer = "bg3"
 NonText     = "bg3"
 Whitespace  = "bg3"
 
-ColorColumn  = "- bg2"
+Cursor        = "bg1 fg1"
 Cursorline   = "- bg2"
 CursorlineNr = "orange bg2"
+ColorColumn  = "- bg2"
 Folded       = "fg0 bg2"
 LineNr       = "black"
 SignColumn   = "link:LineNr"
-Visual       = "- bg3"
-
-NormalFloat = "fg1 bg3"
-Pmenu       = "fg1 bg3"
-PmenuSbar   = "- bg3"
-PmenuSel    = "bg0 blue"
-PmenuThumb  = "- fg0"
-
-StatusLine   = "fg0 bg0"
-StatusLineNC = "black bg0"
+Visual       = "- visual_bg"
 WinSeparator = "bg0 bg0"
+
+Pmenu      = "fg1 bg3"
+PmenuSbar  = "- bg3"
+PmenuSel   = "fg2 black"
+PmenuThumb = "- fg0"
+
+StatusLine    = "fg0 bg0"
+StatusLineNC  = "black bg0"
+TabLine       = "fg0 bg3"
+TabLineFill   = "fg1 bg0"
+TabLineSelect = "bg0 blue"
 
 Search     = "bg0 orange"
 CurSearch  = "bg0 yellow"
 IncSearch  = "- - r"
+Substitute = "bg0 red"
 MatchParen = "- - r"
 
 Added   = "green"
@@ -81,8 +87,14 @@ DiffDelete = "red diff_delete_bg"
 ErrorMsg   = "red"
 ModeMsg    = "comment"
 MoreMsg    = "cyan"
-Question   = "green"
+Question   = "blue"
+QuickFixLine = "- bg3 b"
 WarningMsg = "yellow"
+
+SpellBad   = "- - u red"
+SpellCap   = "- - u yellow"
+SpellLocal = "- - u blue"
+SpellRare  = "- - u cyan"
 
 # Diagnostics
 DiagnosticUnderlineOk    = "- - u green"
@@ -104,14 +116,18 @@ DiagnosticSignWarn  = "yellow"
 DiagnosticSignError = "red"
 
 # Syntax
+Bold         = "fg1 - b"
+Character    = "green"
 Comment      = "comment"
 Constant     = "orange"
+Debug        = "orange"
 Delimiter    = "fg0"
 Directory    = "blue"
 Error        = "red"
 Function     = "blue"
 Identifier   = "yellow"
 Include      = "cyan"
+Italic       = "fg1 - i"
 Keyword      = "purple"
 Operator     = "fg2"
 PreProc      = "cyan"
@@ -121,7 +137,9 @@ StorageClass = "purple"
 String       = "green"
 Structure    = "purple"
 Title        = "red"
+Todo         = "bg0 yellow"
 Type         = "teal0"
+Underlined   = "fg1 - u"
 
 # treesitter
 "@attribute"             = "link:PreProc"
