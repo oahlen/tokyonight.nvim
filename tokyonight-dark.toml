@@ -4,16 +4,18 @@ background = "dark"
 [hues]
 
 [colors]
-bg1 = "#1a1b26" # hsl(240, 17%, 13%)
-bg0 = "darken(bg1, 0.025)"
+base_bg = "#1a1b26"      # hsl(240, 17%, 13%)
+base_comment = "#565f89" # hsl(229, 23%, 44%)
+base_black = "#414868"   # hsl(229, 23%, 33%)
 
-black = "#414868" # hsl(229, 23%, 33%)
+bg0 = "darken(base_bg, 0.025)"
+bg1 = "base_bg"
+bg2 = "mix(base_bg, base_black, 0.80)"
+bg3 = "mix(base_bg, base_black, 0.60)"
+bg4 = "base_black"
 
-bg2 = "mix(bg1, black, 0.80)"
-bg3 = "mix(bg1, black, 0.60)"
 visual_bg = "hsl(225, 0.375, 0.25)"
 
-base_comment = "#565f89" # hsl(229, 23%, 44%)
 comment = "lighten(base_comment, 0.05)"
 
 fg0 = "#9aa5ce"
@@ -55,18 +57,18 @@ Cursorline   = "- bg2"
 CursorlineNr = "orange bg2"
 ColorColumn  = "- bg2"
 Folded       = "fg0 bg2"
-LineNr       = "black"
+LineNr       = "bg4"
 SignColumn   = "link:LineNr"
 Visual       = "- visual_bg"
 WinSeparator = "bg0 bg0"
 
 Pmenu      = "fg1 bg3"
 PmenuSbar  = "- bg3"
-PmenuSel   = "fg2 black"
+PmenuSel   = "fg2 bg4"
 PmenuThumb = "- fg0"
 
 StatusLine    = "fg0 bg0"
-StatusLineNC  = "black bg0"
+StatusLineNC  = "bg4 bg0"
 TabLine       = "fg0 bg3"
 TabLineFill   = "fg1 bg0"
 TabLineSelect = "bg0 blue"

@@ -4,13 +4,13 @@ background = "light"
 [hues]
 
 [colors]
-bg1 = "#e6e7ed"
-bg0 = "darken(bg1, 0.05)"
+base_bg = "#e6e7ed"
 
-black = "darken(bg1, 0.2)"
-
+bg0 = "darken(base_bg, 0.05)"
+bg1 = "base_bg"
 bg2 = "darken(bg1, 0.05)"
 bg3 = "darken(bg1, 0.1)"
+bg4 = "darken(bg1, 0.2)"
 visual_bg = "darken(bg1, 0.1)"
 
 comment = "#6c6e75"
@@ -53,18 +53,18 @@ Cursorline   = "- bg2"
 CursorlineNr = "orange bg2"
 ColorColumn  = "- bg2"
 Folded       = "fg0 bg2"
-LineNr       = "black"
+LineNr       = "bg4"
 SignColumn   = "link:LineNr"
 Visual       = "- visual_bg"
 WinSeparator = "bg0 bg0"
 
 Pmenu      = "fg1 bg3"
 PmenuSbar  = "- bg3"
-PmenuSel   = "fg2 black"
+PmenuSel   = "fg2 bg4"
 PmenuThumb = "- fg0"
 
 StatusLine    = "fg0 bg0"
-StatusLineNC  = "black bg0"
+StatusLineNC  = "bg4 bg0"
 TabLine       = "fg0 bg3"
 TabLineFill   = "fg1 bg0"
 TabLineSelect = "bg0 blue"
