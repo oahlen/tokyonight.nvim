@@ -4,20 +4,20 @@ background = "light"
 [hues]
 
 [colors]
-bg1 = "#f8f9fa"
-bg0 = "#e9ecef"
+bg1 = "#e6e7ed"
+bg0 = "darken(bg1, 0.05)"
 
-black = "#adb5bd"
+black = "darken(bg1, 0.2)"
 
-bg2 = "#e9ecef"
-bg3 = "#dee2e6"
-visual_bg = "#dee2e6"
+bg2 = "darken(bg1, 0.05)"
+bg3 = "darken(bg1, 0.1)"
+visual_bg = "darken(bg1, 0.1)"
 
-comment = "#868e96"
+comment = "#6c6e75"
 
-fg0 = "#495057"
-fg1 = "#343a40"
-fg2 = "#212529"
+fg0 = "#40434f"
+fg1 = "#343b58"
+fg2 = "#343b58"
 
 red    = "#8c4351"
 green  = "#385f0d"
@@ -56,7 +56,7 @@ Folded       = "fg0 bg2"
 LineNr       = "black"
 SignColumn   = "link:LineNr"
 Visual       = "- visual_bg"
-WinSeparator = "bg2"
+WinSeparator = "bg0 bg0"
 
 Pmenu      = "fg1 bg3"
 PmenuSbar  = "- bg3"
@@ -231,7 +231,7 @@ CmpItemKindClass         = "link:Type"
 CmpItemKindColor         = "link:Special"
 CmpItemKindConstant      = "link:Constant"
 CmpItemKindConstructor   = "link:@constructor"
-CmpItemKindEnum          = "link:Constant" # For variety
+CmpItemKindEnum          = "link:Constant"
 CmpItemKindEnumMember    = "link:@property"
 CmpItemKindEvent         = "link:Special"
 CmpItemKindField         = "fg2"
@@ -256,7 +256,7 @@ CmpItemMenu              = "fg2"
 
 NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
-NvimTreeWindowPicker = "bg0 yellow b"
+NvimTreeWindowPicker = "bg0 orange b"
 NvimTreeRootFolder   = "purple"
 NvimTreeSpecialFile  = "orange"
 NvimTreeExecFile     = "green"

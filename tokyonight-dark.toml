@@ -13,7 +13,8 @@ bg2 = "mix(bg1, black, 0.80)"
 bg3 = "mix(bg1, black, 0.60)"
 visual_bg = "hsl(225, 0.375, 0.25)"
 
-comment = "#565f89" # hsl(229, 23%, 44%)
+base_comment = "#565f89" # hsl(229, 23%, 44%)
+comment = "lighten(base_comment, 0.05)"
 
 fg0 = "#9aa5ce"
 fg1 = "#a9b1d6"
@@ -30,15 +31,15 @@ teal0  = "#2ac3de"
 teal1  = "#73daca"
 teal2  = "#b4f9f8"
 
-diag_ok_bg    = "mix(green, bg0, 0.1)"
-diag_info_bg  = "mix(blue, bg0, 0.1)"
-diag_hint_bg  = "mix(cyan, bg0, 0.1)"
-diag_warn_bg  = "mix(yellow, bg0, 0.1)"
-diag_error_bg = "mix(red, bg0, 0.1)"
+diag_ok_bg    = "mix(green, bg1, 0.1)"
+diag_info_bg  = "mix(blue, bg1, 0.1)"
+diag_hint_bg  = "mix(cyan, bg1, 0.1)"
+diag_warn_bg  = "mix(yellow, bg1, 0.1)"
+diag_error_bg = "mix(red, bg1, 0.1)"
 
-diff_add_bg    = "mix(green, bg0, 0.2)"
-diff_text_bg   = "mix(cyan, bg0, 0.2)"
-diff_delete_bg = "mix(red, bg0, 0.2)"
+diff_add_bg    = "mix(green, bg1, 0.2)"
+diff_text_bg   = "mix(cyan, bg1, 0.2)"
+diff_delete_bg = "mix(red, bg1, 0.2)"
 
 [highlights]
 Normal      = "fg1 bg1"
@@ -232,7 +233,7 @@ CmpItemKindClass         = "link:Type"
 CmpItemKindColor         = "link:Special"
 CmpItemKindConstant      = "link:Constant"
 CmpItemKindConstructor   = "link:@constructor"
-CmpItemKindEnum          = "link:Constant" # For variety
+CmpItemKindEnum          = "link:Constant"
 CmpItemKindEnumMember    = "link:@property"
 CmpItemKindEvent         = "link:Special"
 CmpItemKindField         = "fg2"
@@ -257,7 +258,7 @@ CmpItemMenu              = "fg2"
 
 NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
-NvimTreeWindowPicker = "bg0 yellow b"
+NvimTreeWindowPicker = "bg0 orange b"
 NvimTreeRootFolder   = "purple"
 NvimTreeSpecialFile  = "orange"
 NvimTreeExecFile     = "green"
