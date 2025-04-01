@@ -1,5 +1,5 @@
 if vim.o.background == "light" then
-    local palette = require("palette-light")
+    local palette = require("tokyonight.palette-light")
     return {
         normal = {
             a = { bg = palette.blue, fg = palette.bg0 },
@@ -39,7 +39,7 @@ if vim.o.background == "light" then
     }
 end
 
-local palette = require("palette-dark")
+local palette = require("tokyonight.palette-dark")
 return {
     normal = {
         a = { bg = palette.blue, fg = palette.bg0 },
