@@ -20,7 +20,7 @@ return {
     orange = "#965027",
     teal0 = "#006c86",
     teal1 = "#33635c",
-    visual_bg = "#c1c5df",
+    visual_bg = "#c4c7dc",
     diag_ok_bg = "#d4d9d6",
     diag_info_bg = "#d3d8e6",
     diag_hint_bg = "#d0d7e0",
