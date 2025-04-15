@@ -28,7 +28,7 @@ orange = "#965027"
 teal0  = "#006c86"
 teal1  = "#33635c"
 
-visual_bg = "adjust(bg1, 0.30, -0.1)"
+visual_bg = "adjust(bg1, 0.15, -0.1)"
 
 diag_ok_bg    = "mix(green, bg1, 0.1)"
 diag_info_bg  = "mix(blue, bg1, 0.1)"
