@@ -11,7 +11,6 @@ bg1 = "base_bg"
 bg2 = "darken(bg1, 0.05)"
 bg3 = "darken(bg1, 0.1)"
 bg4 = "darken(bg1, 0.2)"
-visual_bg = "darken(bg1, 0.1)"
 
 comment = "#6c6e75"
 
@@ -28,6 +27,8 @@ cyan   = "#0f4b6e"
 orange = "#965027"
 teal0  = "#006c86"
 teal1  = "#33635c"
+
+visual_bg = "adjust(bg1, 0.30, -0.1)"
 
 diag_ok_bg    = "mix(green, bg1, 0.1)"
 diag_info_bg  = "mix(blue, bg1, 0.1)"
