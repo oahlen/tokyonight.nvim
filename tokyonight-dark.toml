@@ -14,8 +14,6 @@ bg2 = "mix(base_bg, base_black, 0.80)"
 bg3 = "mix(base_bg, base_black, 0.60)"
 bg4 = "base_black"
 
-visual_bg = "hsl(225, 0.375, 0.25)"
-
 comment = "lighten(base_comment, 0.05)"
 
 fg0 = "#9aa5ce"
@@ -32,6 +30,8 @@ orange = "#ff9e64"
 teal0  = "#2ac3de"
 teal1  = "#73daca"
 teal2  = "#b4f9f8"
+
+visual_bg = "hsl(225, 0.375, 0.25)"
 
 diag_ok_bg    = "mix(green, bg1, 0.1)"
 diag_info_bg  = "mix(blue, bg1, 0.1)"
