@@ -222,6 +222,17 @@ Underlined   = "fg1 - u"
 
 "@punctuation.special.markdown" = "link:Comment"
 
+# Non treesitter highlights
+csvCol0 = "fg2"
+csvCol1 = "blue"
+csvCol2 = "orange"
+csvCol3 = "teal0"
+csvCol4 = "purple"
+csvCol5 = "green"
+csvCol6 = "cyan"
+csvCol7 = "yellow"
+csvCol8 = "teal1"
+
 # Plugins
 CmpItemAbbr              = "fg2"
 CmpItemAbbrDeprecated    = "link:Comment"
