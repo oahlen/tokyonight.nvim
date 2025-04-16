@@ -10,7 +10,7 @@ return {
     comment = "#6c6e75",
     fg0 = "#40434f",
     fg1 = "#343b58",
-    fg2 = "#343b58",
+    fg2 = "#2b3048",
     red = "#8c4351",
     green = "#385f0d",
     yellow = "#8f5e15",

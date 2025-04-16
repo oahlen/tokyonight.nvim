@@ -16,7 +16,7 @@ comment = "#6c6e75"
 
 fg0 = "#40434f"
 fg1 = "#343b58"
-fg2 = "fg1"
+fg2 = "darken(fg1, 0.05)"
 
 red    = "#8c4351"
 green  = "#385f0d"
