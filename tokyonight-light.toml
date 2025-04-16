@@ -218,8 +218,8 @@ Underlined   = "fg1 - u"
 "@markup.list"       = "green"
 "@markup.link.label" = "blue - u"
 "@markup.link.url"   = "teal1 - u"
-"@markup.raw"        = "- bg2"
-"@markup.raw.block"  = "- bg2"
+"@markup.raw"        = "link:ColorColumn"
+"@markup.raw.block"  = "link:ColorColumn"
 
 "@punctuation.special.markdown" = "link:Comment"
 
