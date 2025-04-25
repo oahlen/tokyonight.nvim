@@ -26,10 +26,10 @@ return {
     visual_bg = "#283458",
     diag_ok_bg = "#272c2c",
     diag_info_bg = "#23283a",
-    diag_hint_bg = "#232d3b",
+    diag_hint_bg = "#1b2b38",
     diag_warn_bg = "#2d292c",
     diag_error_bg = "#302430",
     diff_add_bg = "#343e33",
-    diff_text_bg = "#2d3f51",
+    diff_text_bg = "#1d3c4a",
     diff_delete_bg = "#462d3a",
 }

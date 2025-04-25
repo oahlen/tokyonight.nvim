@@ -35,34 +35,34 @@ function M.set_highlights()
     hl(0, "Substitute", { fg = "#15161e", bg = "#f7768e" })
     hl(0, "MatchParen", { fg = "NONE", bg = "#283458" })
     hl(0, "Added", { fg = "#9ece6a", bg = "NONE" })
-    hl(0, "Changed", { fg = "#7dcfff", bg = "NONE" })
+    hl(0, "Changed", { fg = "#2ac3de", bg = "NONE" })
     hl(0, "Removed", { fg = "#f7768e", bg = "NONE" })
     hl(0, "DiffAdd", { fg = "#9ece6a", bg = "#343e33" })
-    hl(0, "DiffText", { fg = "#7dcfff", bg = "#2d3f51" })
+    hl(0, "DiffText", { fg = "#2ac3de", bg = "#1d3c4a" })
     hl(0, "DiffDelete", { fg = "#f7768e", bg = "#462d3a" })
     hl(0, "ErrorMsg", { fg = "#f7768e", bg = "NONE" })
     hl(0, "ModeMsg", { fg = "#606a99", bg = "NONE" })
-    hl(0, "MoreMsg", { fg = "#7dcfff", bg = "NONE" })
+    hl(0, "MoreMsg", { fg = "#2ac3de", bg = "NONE" })
     hl(0, "Question", { fg = "#7aa2f7", bg = "NONE" })
     hl(0, "QuickFixLine", { fg = "NONE", bg = "#292d40", bold = true })
     hl(0, "WarningMsg", { fg = "#e0af68", bg = "NONE" })
     hl(0, "SpellBad", { fg = "NONE", bg = "NONE", sp = "#f7768e", underline = true })
     hl(0, "SpellCap", { fg = "NONE", bg = "NONE", sp = "#e0af68", underline = true })
     hl(0, "SpellLocal", { fg = "NONE", bg = "NONE", sp = "#7aa2f7", underline = true })
-    hl(0, "SpellRare", { fg = "NONE", bg = "NONE", sp = "#7dcfff", underline = true })
+    hl(0, "SpellRare", { fg = "NONE", bg = "NONE", sp = "#2ac3de", underline = true })
     hl(0, "DiagnosticUnderlineOk", { fg = "NONE", bg = "NONE", sp = "#9ece6a", underline = true })
     hl(0, "DiagnosticUnderlineInfo", { fg = "NONE", bg = "NONE", sp = "#7aa2f7", underline = true })
-    hl(0, "DiagnosticUnderlineHint", { fg = "NONE", bg = "NONE", sp = "#7dcfff", underline = true })
+    hl(0, "DiagnosticUnderlineHint", { fg = "NONE", bg = "NONE", sp = "#2ac3de", underline = true })
     hl(0, "DiagnosticUnderlineWarn", { fg = "NONE", bg = "NONE", sp = "#e0af68", underline = true })
     hl(0, "DiagnosticUnderlineError", { fg = "NONE", bg = "NONE", sp = "#f7768e", underline = true })
     hl(0, "DiagnosticOk", { fg = "#9ece6a", bg = "#272c2c" })
     hl(0, "DiagnosticInfo", { fg = "#7aa2f7", bg = "#23283a" })
-    hl(0, "DiagnosticHint", { fg = "#7dcfff", bg = "#232d3b" })
+    hl(0, "DiagnosticHint", { fg = "#2ac3de", bg = "#1b2b38" })
     hl(0, "DiagnosticWarn", { fg = "#e0af68", bg = "#2d292c" })
     hl(0, "DiagnosticError", { fg = "#f7768e", bg = "#302430" })
     hl(0, "DiagnosticSignOk", { fg = "#9ece6a", bg = "NONE" })
     hl(0, "DiagnosticSignInfo", { fg = "#7aa2f7", bg = "NONE" })
-    hl(0, "DiagnosticSignHint", { fg = "#7dcfff", bg = "NONE" })
+    hl(0, "DiagnosticSignHint", { fg = "#2ac3de", bg = "NONE" })
     hl(0, "DiagnosticSignWarn", { fg = "#e0af68", bg = "NONE" })
     hl(0, "DiagnosticSignError", { fg = "#f7768e", bg = "NONE" })
     hl(0, "Bold", { fg = "#a9b1d6", bg = "NONE", bold = true })
@@ -155,7 +155,7 @@ function M.set_highlights()
     hl(0, "@markup.heading.1", { fg = "#f7768e", bg = "NONE" })
     hl(0, "@markup.heading.2", { fg = "#e0af68", bg = "NONE" })
     hl(0, "@markup.heading.3", { fg = "#9ece6a", bg = "NONE" })
-    hl(0, "@markup.heading.4", { fg = "#7dcfff", bg = "NONE" })
+    hl(0, "@markup.heading.4", { fg = "#2ac3de", bg = "NONE" })
     hl(0, "@markup.heading.5", { fg = "#7aa2f7", bg = "NONE" })
     hl(0, "@markup.heading.6", { fg = "#bb9af7", bg = "NONE" })
     hl(0, "@markup.list", { fg = "#9ece6a", bg = "NONE" })
@@ -167,7 +167,7 @@ function M.set_highlights()
     hl(0, "csvCol0", { fg = "#c0caf5", bg = "NONE" })
     hl(0, "csvCol1", { fg = "#7aa2f7", bg = "NONE" })
     hl(0, "csvCol2", { fg = "#ff9e64", bg = "NONE" })
-    hl(0, "csvCol3", { fg = "#7dcfff", bg = "NONE" })
+    hl(0, "csvCol3", { fg = "#2ac3de", bg = "NONE" })
     hl(0, "csvCol4", { fg = "#bb9af7", bg = "NONE" })
     hl(0, "csvCol5", { fg = "#9ece6a", bg = "NONE" })
     hl(0, "csvCol6", { fg = "#2ac3de", bg = "NONE" })
@@ -206,7 +206,7 @@ function M.set_highlights()
     hl(0, "CmpItemMenu", { fg = "#c0caf5", bg = "NONE" })
     hl(0, "NvimTreeFolderIcon", { link = "Directory" })
     hl(0, "NvimTreeIndentMarker", { link = "Directory" })
-    hl(0, "NvimTreeWindowPicker", { fg = "#15161e", bg = "#ff9e64", bold = true })
+    hl(0, "NvimTreeWindowPicker", { fg = "#15161e", bg = "#2ac3de", bold = true })
     hl(0, "NvimTreeRootFolder", { fg = "#bb9af7", bg = "NONE" })
     hl(0, "NvimTreeSpecialFile", { fg = "#ff9e64", bg = "NONE" })
     hl(0, "NvimTreeExecFile", { fg = "#9ece6a", bg = "NONE" })
@@ -228,15 +228,15 @@ function M.set_globals()
     vim.g.terminal_color_3 = "#ff9e64"
     vim.g.terminal_color_4 = "#7aa2f7"
     vim.g.terminal_color_5 = "#bb9af7"
-    vim.g.terminal_color_6 = "#7dcfff"
+    vim.g.terminal_color_6 = "#2ac3de"
     vim.g.terminal_color_7 = "#a9b1d6"
     vim.g.terminal_color_8 = "#606a99"
     vim.g.terminal_color_9 = "#f7768e"
     vim.g.terminal_color_10 = "#9ece6a"
     vim.g.terminal_color_11 = "#ff9e64"
-    vim.g.terminal_color_12 = "#7aa2f7"
+    vim.g.terminal_color_12 = "#7dcfff"
     vim.g.terminal_color_13 = "#bb9af7"
-    vim.g.terminal_color_14 = "#7dcfff"
+    vim.g.terminal_color_14 = "#73daca"
     vim.g.terminal_color_15 = "#c0caf5"
     vim.g.terminal_color_background = "#1a1b26"
     vim.g.terminal_color_foreground = "#a9b1d6"
