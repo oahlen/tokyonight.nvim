@@ -232,7 +232,7 @@ function M.set_globals()
     vim.g.terminal_color_7 = "#343b58"
     vim.g.terminal_color_8 = "#6c6e75"
     vim.g.terminal_color_9 = "#8c4351"
-    vim.g.terminal_color_10 = "#33635c"
+    vim.g.terminal_color_10 = "#385f0d"
     vim.g.terminal_color_11 = "#8f5e15"
     vim.g.terminal_color_12 = "#2959aa"
     vim.g.terminal_color_13 = "#5a3e8e"
