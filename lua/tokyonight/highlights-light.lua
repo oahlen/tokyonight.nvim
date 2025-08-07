@@ -5,8 +5,8 @@ local M = {}
 function M.set_highlights()
     local hl = vim.api.nvim_set_hl
 
-    hl(0, "Normal", { fg = "#343b58", bg = "NONE" })
-    hl(0, "NormalNC", { fg = "#343b58", bg = "NONE" })
+    hl(0, "Normal", { fg = "#343b58", bg = "#e6e7ed" })
+    hl(0, "NormalNC", { fg = "#343b58", bg = "#e6e7ed" })
     hl(0, "NormalFloat", { fg = "#343b58", bg = "#c8cbd8" })
     hl(0, "EndOfBuffer", { fg = "#c8cbd8", bg = "NONE" })
     hl(0, "NonText", { fg = "#c8cbd8", bg = "NONE" })

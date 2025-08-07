@@ -44,8 +44,8 @@ diff_text_bg   = "mix(teal0, bg1, 0.2)"
 diff_delete_bg = "mix(red, bg1, 0.2)"
 
 [highlights]
-Normal      = "fg1 -"
-NormalNC    = "fg1 -"
+Normal      = "fg1 bg1"
+NormalNC    = "fg1 bg1"
 NormalFloat = "fg1 bg3"
 
 EndOfBuffer = "bg3"
