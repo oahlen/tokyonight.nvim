@@ -286,7 +286,7 @@ IblWhitespace = "link:NonText"
 IblScope      = "link:LineNr"
 
 [globals]
-terminal_color_0          = "bg3"
+terminal_color_0          = "bg2"
 terminal_color_1          = "red"
 terminal_color_2          = "green"
 terminal_color_3          = "yellow"
