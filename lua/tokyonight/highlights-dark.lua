@@ -7,7 +7,7 @@ function M.set_highlights()
 
     hl(0, "Normal", { fg = "#a9b1d6", bg = "#1a1b26" })
     hl(0, "NormalNC", { fg = "#a9b1d6", bg = "#1a1b26" })
-    hl(0, "NormalFloat", { fg = "#a9b1d6", bg = "#15161e" })
+    hl(0, "NormalFloat", { fg = "#a9b1d6", bg = "#292d40" })
     hl(0, "EndOfBuffer", { fg = "#292d40", bg = "NONE" })
     hl(0, "NonText", { fg = "#292d40", bg = "NONE" })
     hl(0, "Whitespace", { fg = "#292d40", bg = "NONE" })
