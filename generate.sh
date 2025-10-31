@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-huey tokyonight-dark.toml .
-huey tokyonight-light.toml .
+huevim tokyonight-dark.toml .
+huevim tokyonight-light.toml .
