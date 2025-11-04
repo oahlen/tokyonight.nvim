@@ -207,8 +207,10 @@ Underlined   = "fg1 - u"
 
 # Language specific highlights
 "@constant.bash"                 = "fg2"
+"@constant.builtin.rust"         = "link:PreProc"
 "@constructor.lua"               = "link:Delimiter"
 "@keyword.directive.bash"        = "link:Comment"
+"@keyword.exception.rust"        = "link:PreProc"
 "@property.json"                 = "blue"
 "@property.toml"                 = "blue"
 "@property.yaml"                 = "blue"
