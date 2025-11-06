@@ -277,7 +277,6 @@ BlinkCmpDocBorder         = "bg3 bg3"
 BlinkCmpDocSeparator      = "fg2 bg3"
 BlinkCmpLabelDeprecated   = "link:Comment"
 
-NvimTreeNormal       = "fg1 bg0"
 NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
 NvimTreeWindowPicker = "bg0 teal0 b"
