@@ -98,10 +98,10 @@ Question   = "blue"
 QuickFixLine = "- bg3 b"
 WarningMsg = "yellow"
 
-SpellBad   = "- - u red"
-SpellCap   = "- - u yellow"
-SpellLocal = "- - u blue"
-SpellRare  = "- - u teal0"
+SpellBad   = "- - c red"
+SpellCap   = "- - c yellow"
+SpellLocal = "- - c blue"
+SpellRare  = "- - c teal0"
 
 # Diagnostics
 DiagnosticUnderlineOk    = "- - u green"
