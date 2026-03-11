@@ -301,6 +301,16 @@ FzfLuaTitle      = "fg2"
 IblWhitespace = "link:NonText"
 IblScope      = "link:LineNr"
 
+AgenticTitle             = "bg0 teal0 b"
+AgenticDiffAddWord       = "bg0 green b"
+AgenticDiffDeleteWord    = "bg0 red b"
+AgenticSpinnerGenerating = "term_cyan - b"
+AgenticSpinnerSearching  = "yellow - b"
+AgenticSpinnerThinking   = "purple - b"
+AgenticStatusCompleted   = "green"
+AgenticStatusPending     = "purple"
+AgenticStatusFailed      = "red"
+
 [globals]
 terminal_color_0          = "term_black"
 terminal_color_1          = "red"
