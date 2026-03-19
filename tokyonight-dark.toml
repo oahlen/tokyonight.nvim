@@ -301,8 +301,9 @@ FzfLuaTabMarker  = "green"
 FzfLuaTabTitle   = "link:Title"
 FzfLuaTitle      = "fg2"
 
-IblWhitespace = "link:NonText"
+IblIndent     = "link:NonText"
 IblScope      = "link:LineNr"
+IblWhitespace = "link:Whitespace"
 
 AgenticTitle             = "bg0 teal0 b"
 AgenticDiffAddWord       = "bg0 green b"
