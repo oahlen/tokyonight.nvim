@@ -1,0 +1,18 @@
+{
+  "pins": {
+    "huevim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "oahlen",
+        "repo": "huevim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "2a5bcc7ad8325aed2d7844692285b0abede814b0",
+      "url": "https://github.com/oahlen/huevim/archive/2a5bcc7ad8325aed2d7844692285b0abede814b0.tar.gz",
+      "hash": "sha256-Z6CSRTuLCyNshBJYaVmMENRRyNi6lE5XHatnZiO9ShM="
+    }
+  },
+  "version": 7
+}
