@@ -41,6 +41,8 @@ diff_text_bg   = "mix(teal0, bg1, 0.2)"
 diff_delete_bg = "mix(red, bg1, 0.2)"
 
 regexp = "cyan"
+object_key = "cyan" # To increase contrast compared to teal1
+
 term_black = "bg2"
 term_cyan = "teal0"
 
@@ -211,9 +213,9 @@ Underlined   = "fg1 - u"
 "@keyword.directive.bash"        = "link:Comment"
 "@keyword.directive.python"      = "link:Comment"
 "@keyword.exception.rust"        = "link:PreProc"
-"@property.json"                 = "blue"
-"@property.toml"                 = "blue"
-"@property.yaml"                 = "blue"
+"@property.json"                 = "object_key"
+"@property.toml"                 = "object_key"
+"@property.yaml"                 = "object_key"
 "@string.csv"                    = "fg1"
 "@string.special.path.nix"       = "teal0"
 "@variable.parameter.bash"       = "fg2"
