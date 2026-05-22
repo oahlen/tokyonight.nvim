@@ -30,7 +30,6 @@ return {
     diff_text_bg = "#b8ced8",
     diff_delete_bg = "#d4c6cd",
     regexp = "#0f4b6e",
-    object_key = "#0f4b6e",
     term_black = "#d7d9e2",
     term_cyan = "#006c86",
 }
