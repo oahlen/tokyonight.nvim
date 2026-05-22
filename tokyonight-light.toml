@@ -57,7 +57,7 @@ Whitespace  = "bg3"
 
 Cursor        = "bg1 fg1"
 Cursorline   = "- bg2"
-CursorlineNr = "orange bg2"
+CursorlineNr = "orange bg2 b"
 ColorColumn  = "- term_black"
 Folded       = "fg0 bg2"
 LineNr       = "bg4"
