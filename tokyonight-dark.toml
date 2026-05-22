@@ -66,7 +66,7 @@ Folded       = "fg0 bg2"
 LineNr       = "bg4"
 SignColumn   = "link:LineNr"
 Visual       = "- visual_bg"
-WinSeparator = "bg0 bg0"
+WinSeparator = "bg3 -"
 
 Pmenu      = "fg1 bg3"
 PmenuSbar  = "- bg3"
