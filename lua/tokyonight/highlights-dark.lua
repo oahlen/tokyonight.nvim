@@ -238,6 +238,7 @@ function M.set_highlights()
     hl(0, "AgenticStatusCompleted", { fg = "#9ece6a", bg = "NONE" })
     hl(0, "AgenticStatusPending", { fg = "#bb9af7", bg = "NONE" })
     hl(0, "AgenticStatusFailed", { fg = "#f7768e", bg = "NONE" })
+    hl(0, "WhichKeyNormal", { fg = "#a9b1d6", bg = "#15161e" })
 end
 
 function M.set_globals()

@@ -309,6 +309,8 @@ AgenticStatusCompleted   = "green"
 AgenticStatusPending     = "purple"
 AgenticStatusFailed      = "red"
 
+WhichKeyNormal = "fg1 bg0"
+
 [globals]
 terminal_color_0          = "term_black"
 terminal_color_1          = "red"
