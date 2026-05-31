@@ -20,6 +20,7 @@ return {
     orange = "#965027",
     teal0 = "#006c86",
     teal1 = "#33635c",
+    teal2 = "#0f4b6e",
     visual_bg = "#c4c7dc",
     diag_ok_bg = "#d4d9d6",
     diag_info_bg = "#d3d8e6",
@@ -29,7 +30,6 @@ return {
     diff_add_bg = "#c3cbc0",
     diff_text_bg = "#b8ced8",
     diff_delete_bg = "#d4c6cd",
-    regexp = "#0f4b6e",
     term_black = "#d7d9e2",
     term_cyan = "#006c86",
 }
