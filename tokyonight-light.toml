@@ -6,11 +6,11 @@ background = "light"
 [colors]
 base_bg = "#e6e7ed"
 
-bg0 = "base_bg"
-bg1 = "lighten(base_bg, 0.05)"
-bg2 = "base_bg"
-bg3 = "darken(base_bg, 0.05)"
-bg4 = "darken(base_bg, 0.15)"
+bg0 = "darken(base_bg, 0.05)"
+bg1 = "base_bg"
+bg2 = "darken(bg1, 0.05)"
+bg3 = "darken(bg1, 0.1)"
+bg4 = "darken(bg1, 0.2)"
 
 comment = "#6c6e75"
 
