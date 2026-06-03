@@ -77,14 +77,14 @@ function M.set_highlights()
     hl(0, "Identifier", { fg = "#8f5e15", bg = "NONE" })
     hl(0, "Include", { fg = "#0f4b6e", bg = "NONE" })
     hl(0, "Italic", { fg = "#343b58", bg = "NONE", italic = true })
-    hl(0, "Keyword", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "Keyword", { fg = "#65359d", bg = "NONE" })
     hl(0, "Operator", { fg = "#0f4b6e", bg = "NONE" })
     hl(0, "PreProc", { fg = "#006c86", bg = "NONE" })
     hl(0, "Special", { fg = "#0f4b6e", bg = "NONE" })
-    hl(0, "Statement", { fg = "#5a3e8e", bg = "NONE" })
-    hl(0, "StorageClass", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "Statement", { fg = "#65359d", bg = "NONE" })
+    hl(0, "StorageClass", { fg = "#65359d", bg = "NONE" })
     hl(0, "String", { fg = "#385f0d", bg = "NONE" })
-    hl(0, "Structure", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "Structure", { fg = "#65359d", bg = "NONE" })
     hl(0, "Title", { fg = "#8c4351", bg = "NONE" })
     hl(0, "Todo", { fg = "#d7d9e2", bg = "#8f5e15" })
     hl(0, "Type", { fg = "#343b58", bg = "NONE" })
@@ -161,7 +161,7 @@ function M.set_highlights()
     hl(0, "@markup.heading.3", { fg = "#385f0d", bg = "NONE" })
     hl(0, "@markup.heading.4", { fg = "#006c86", bg = "NONE" })
     hl(0, "@markup.heading.5", { fg = "#2959aa", bg = "NONE" })
-    hl(0, "@markup.heading.6", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "@markup.heading.6", { fg = "#65359d", bg = "NONE" })
     hl(0, "@markup.list", { fg = "#385f0d", bg = "NONE" })
     hl(0, "@markup.link.label", { fg = "#2959aa", bg = "NONE", underline = true })
     hl(0, "@markup.link.url", { fg = "#33635c", bg = "NONE", underline = true })
@@ -172,7 +172,7 @@ function M.set_highlights()
     hl(0, "csvCol1", { fg = "#2959aa", bg = "NONE" })
     hl(0, "csvCol2", { fg = "#965027", bg = "NONE" })
     hl(0, "csvCol3", { fg = "#006c86", bg = "NONE" })
-    hl(0, "csvCol4", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "csvCol4", { fg = "#65359d", bg = "NONE" })
     hl(0, "csvCol5", { fg = "#385f0d", bg = "NONE" })
     hl(0, "csvCol6", { fg = "#0f4b6e", bg = "NONE" })
     hl(0, "csvCol7", { fg = "#8f5e15", bg = "NONE" })
@@ -211,7 +211,7 @@ function M.set_highlights()
     hl(0, "NvimTreeFolderIcon", { link = "Directory" })
     hl(0, "NvimTreeIndentMarker", { link = "Directory" })
     hl(0, "NvimTreeWindowPicker", { fg = "#d7d9e2", bg = "#006c86", bold = true })
-    hl(0, "NvimTreeRootFolder", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "NvimTreeRootFolder", { fg = "#65359d", bg = "NONE" })
     hl(0, "NvimTreeSpecialFile", { fg = "#965027", bg = "NONE" })
     hl(0, "NvimTreeExecFile", { fg = "#385f0d", bg = "NONE" })
     hl(0, "NvimTreeDeletedIcon", { fg = "#8c4351", bg = "NONE" })
@@ -234,9 +234,9 @@ function M.set_highlights()
     hl(0, "AgenticDiffDeleteWord", { fg = "#d7d9e2", bg = "#8c4351", bold = true })
     hl(0, "AgenticSpinnerGenerating", { fg = "#006c86", bg = "NONE", bold = true })
     hl(0, "AgenticSpinnerSearching", { fg = "#8f5e15", bg = "NONE", bold = true })
-    hl(0, "AgenticSpinnerThinking", { fg = "#5a3e8e", bg = "NONE", bold = true })
+    hl(0, "AgenticSpinnerThinking", { fg = "#65359d", bg = "NONE", bold = true })
     hl(0, "AgenticStatusCompleted", { fg = "#385f0d", bg = "NONE" })
-    hl(0, "AgenticStatusPending", { fg = "#5a3e8e", bg = "NONE" })
+    hl(0, "AgenticStatusPending", { fg = "#65359d", bg = "NONE" })
     hl(0, "AgenticStatusFailed", { fg = "#8c4351", bg = "NONE" })
     hl(0, "WhichKeyNormal", { fg = "#343b58", bg = "#d7d9e2" })
 end
@@ -247,7 +247,7 @@ function M.set_globals()
     vim.g.terminal_color_2 = "#385f0d"
     vim.g.terminal_color_3 = "#8f5e15"
     vim.g.terminal_color_4 = "#2959aa"
-    vim.g.terminal_color_5 = "#5a3e8e"
+    vim.g.terminal_color_5 = "#65359d"
     vim.g.terminal_color_6 = "#006c86"
     vim.g.terminal_color_7 = "#343b58"
     vim.g.terminal_color_8 = "#6c6e75"
@@ -255,7 +255,7 @@ function M.set_globals()
     vim.g.terminal_color_10 = "#385f0d"
     vim.g.terminal_color_11 = "#8f5e15"
     vim.g.terminal_color_12 = "#2959aa"
-    vim.g.terminal_color_13 = "#5a3e8e"
+    vim.g.terminal_color_13 = "#65359d"
     vim.g.terminal_color_14 = "#006c86"
     vim.g.terminal_color_15 = "#343b58"
     vim.g.terminal_color_background = "#e6e7ed"
